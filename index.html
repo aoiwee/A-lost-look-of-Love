@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/icone.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script src="assets/js/script.js" defer></script>
+
+    <title>A Lost Look Of Love</title>
+  </head>
+  <body>
+    <header id="introduction">
+      <h1>A Lost Look Of Love</h1>
+      <h2>Fait par Ly Prinnie</h2>
+      <div id="bouton-demarrer-i" class="bouton">Commencer</div>
+    </header>
+    <div id="menu">
+      <h2>Votre partenaire s'est faite kidnapper</h2>
+      <h2>Accumulez un total de <span>100</span> points pour la sauver</h2>
+      <h2>
+        Vous devez eviter les reapers et sauver les copies de votre partenaire
+      </h2>
+      <h2>
+        Chaque copie de partenaire obtenue vous donne <span>5</span> points et ajoute
+        <span>3</span> secondes a votre temps
+      </h2>
+      <h2>
+        Tandis que les reapers vous enlevent <span>3</span>
+        points et enlevent <span>10</span> secondes de votre temps.
+      </h2>
+      <h2 id="bonne-chance">Bonne chance</h2>
+      <p>Les touches utilisees sont</p>
+      <p>A pour aller a gauche | D pour aller a droite</p>
+      <p><span>⇜</span> pour aller a gauche | Pour aller a droite <span>⇝</span></p>
+      <p><span>Espace</span> pour recommencer</p>
+      <div id="bouton-demarrer-m" class="bouton">Okay</div>
+    </div>
+    <main id="jeu">
+      <h3 id="score-texte">Score:</h3>
+      <canvas id="monCanvas"></canvas>
+      <h3 id="temps-texte">Temps restant:</h3>
+    </main>
+    <div id="fin">
+      <h2>Fin de la partie</h2>
+      <p>Vous avez obtenu un score final de:</p>
+      <p id="score-texte-fin">Score:</p>
+      <p id="message-fin">Message</p>
+      <p id="touche-redemarrer">Cliquez sur espace pour rejouer</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+@import url("./reset.css");
+@font-face {
+    font-family: "Super chips";
+    src: url("../fonts/NIGHTMARE 5.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Not Super Chips";
+    src: url("../fonts/October\ Crow.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Super chips", sans-serif;
+    color: #ffffff;
+    padding: 5rem;
+    background-image: url("../images/horror_bg.png");
+    backdrop-filter: blur(1px) brightness(35%);
+    height: 100vh;
+    background-size: cover;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#introduction { 
+    font-family: "Super chips", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+}
+
+#introduction h2{
+    font-size: 4rem;
+}
+
+#objectif {
+    font-family: "Super chips", sans-serif;
+}
+
+#menu { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    text-align: center;
+}
+
+#menu h2{
+    font-size: 3rem;
+}
+
+#menu p{
+    font-size: 2.6rem;
+}
+
+#bonne-chance {
+    margin-bottom: 2%;
+}
+
+.bouton {
+    background-color: black;
+    color: white;
+    margin: 2rem;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 350ms;
+    border: 2px solid transparent;
+    font-size: 3rem;
+    text-align: center;
+    width: 20%;
+}
+
+.bouton:hover {
+    background-color: color-mix(in oklab, rgb(107, 5, 5) 95%, black 5%);
+    transform: scale(1.05);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#monCanvas {
+    background-color: rgb(47, 47, 47);
+    border: 2px, solid, white;
+    cursor: none;
+}
+
+#score-texte {
+    font-family: "Not Super chips", sans-serif;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#jeu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#temps-texte {
+    font-family: "Not Super chips", sans-serif;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#fin { 
+    font-family: "Not Super chips", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    text-align: center;
+}
+
+#fin h2{
+    font-size: 4rem;
+    margin-bottom: 2rem 0;
+}
+
+span {
+    font-family: "Not Super chips", sans-serif;
+    color: red;
+}
+
+#fin p{
+    font-size: 3rem; 
+}
+
+#score-texte-fin {
+    font-size: 15rem !important;
+    margin: 2% 0;
+}
+
+#touche-redemarrer {
+    opacity: 0.5;
+    font-size: 1.5rem;
+}
+
+.invisible {
+    display: none !important;
+}
+
