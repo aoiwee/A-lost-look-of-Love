@@ -50,22 +50,17 @@ main {
     font-size: 4rem;
 }
 
-#objectif {
-    font-family: "Super chips", sans-serif;
-}
-
 #menu { 
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 8rem;
     text-align: center;
 }
 
 #menu h2{
-    font-size: 3rem;
+    font-size: 2.7rem;
 }
 
 #menu p{
